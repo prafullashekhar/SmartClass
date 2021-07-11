@@ -5,6 +5,7 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fff"
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
@@ -20,6 +21,15 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
+        android:background="#fff"
+        android:clipToPadding="false"
+        android:elevation="4dp"
+        app:insetForeground="#44383838"
+        app:itemBackground="@drawable/menu_background_color"
         app:headerLayout="@layout/nav_header_main"
-        app:menu="@menu/activity_main_drawer" />
+        app:menu="@menu/activity_main_drawer"
+        app:itemIconTint="@color/menu_icon_color"
+        app:itemTextColor="@color/menu_text_color"
+        app:itemHorizontalPadding="40dp"
+        app:itemTextAppearance="@style/TestViewStyle"/>
 </androidx.drawerlayout.widget.DrawerLayout>

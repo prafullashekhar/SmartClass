@@ -22,4 +22,9 @@
     <style name="Theme.MyBaseProfect1.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.MyBaseProfect1.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    
+    <style name="TestViewStyle" parent="android:Widget.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#830707</item>
+    </style>
 </resources>
