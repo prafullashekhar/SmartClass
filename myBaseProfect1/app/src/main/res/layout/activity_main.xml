@@ -30,6 +30,6 @@
         app:menu="@menu/activity_main_drawer"
         app:itemIconTint="@color/menu_icon_color"
         app:itemTextColor="@color/menu_text_color"
-        app:itemHorizontalPadding="40dp"
+        app:itemHorizontalPadding="20dp"
         app:itemTextAppearance="@style/TestViewStyle"/>
 </androidx.drawerlayout.widget.DrawerLayout>
